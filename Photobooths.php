@@ -1,6 +1,7 @@
 
 <?php
-include 'includes/header.php';
+$page_name = '- Photo Booths';
+include 'includes/header.php'; 
 ?>
 
 
@@ -26,7 +27,7 @@ will find all of the photos that were taken the night of their event.</p>
 memories!!!</p>
 
 <p>Video Booths and Green Screens available upon request.</p>   
-              <p><a class="link" href="/Services.php">Back</a></p>
+              <p><a class="link" href="Services.php">Back</a></p>
 </article>
 <article class="col-2 p2">
     <?php

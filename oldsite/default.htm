@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Concept Effects</title>
+<link rel="stylesheet" type="text/css" href="design/design.css" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+<script language="javascript" type="text/javascript">
+
+
+image1 = new Image();
+image1.src = "design/images/City/OverHome.jpg";
+
+image2 = new Image();
+image2.src = "design/images/City/OverAboutUs.jpg";
+
+image3 = new Image();
+image3.src = "design/images/City/OverService.jpg";
+
+image4 = new Image();
+image4.src = "design/images/City/OverProduct.jpg";
+
+image5 = new Image();
+image5.src = "design/images/City/OverContact.jpg";
+
+
+function cityFlipOver(imageName)
+{
+	var image = document.getElementById(imageName);	
+	image.src = 'design/images/City/Over' + imageName + '.jpg';	
+}
+
+function cityFlipOff(imageName)
+{
+	var image = document.getElementById(imageName);	
+	image.src = 'design/images/City/' + imageName + '.jpg';	
+}
+
+</script>
+<meta name="keywords" content="Chicago, wedding, lighting, Chicago wedding lighting, lighting, custom gobo, monogram, uplighiting, up lighting, wedding lights, pin spot, intelligent lighting, special effects, scenic lighting, "/>
+<meta name="description" content="Concept Effects is available to help you achieve your vision. Whether you are a lighting designer, corporate planner, production manager, event planner, wedding planner, concert promoter, private planner, or entertainment industry planner, Concept Effects is here to help you. "/>
+
+</head>
+
+<body>
+	<div id="siteWrapper">
+		<div id="branding">
+			<h1><a href="/"></a></h1>
+			<ul>
+				<li><a href="default.htm" onmouseover="cityFlipOver('Home')" onmouseout="cityFlipOff('Home')">Home</a></li>
+				<li><a href="aboutus.htm" onmouseover="cityFlipOver('AboutUs')" onmouseout="cityFlipOff('AboutUs')">About Us</a></li>
+				<li><a href="service.htm" onmouseover="cityFlipOver('Service')" onmouseout="cityFlipOff('Service')">Services</a></li>
+				<li><a href="product.htm" onmouseover="cityFlipOver('Product')" onmouseout="cityFlipOff('Product')">Products</a></li>
+				<li><a href="contact.htm" onmouseover="cityFlipOver('Contact')" onmouseout="cityFlipOff('Contact')">Contact</a></li>
+			</ul>
+			<div class="clearit"></div>
+		</div>
+		
+		<div id="content" style="text-align:center;">
+			<h2 style="font-size:25px; padding-top:10px;">Welcome, to a new solution source.</h2>
+			<table border="0" cellpadding="0" cellspacing="0" width="941" style="margin:0px auto 0px auto;"> 
+			  <tr> 
+			   <td><img name="Home" src="design/images/City/Home.jpg" width="188" height="441" border="0" id="Home" alt="" /></td> 
+			   <td><img name="AboutUs" src="design/images/City/AboutUs.jpg" width="188" height="441" border="0" id="AboutUs" alt="" /></td> 
+			   <td><img name="Service" src="design/images/City/Service.jpg" width="188" height="441" border="0" id="Service" alt="" /></td> 
+			   <td><img name="Product" src="design/images/City/Product.jpg" width="188" height="441" border="0" id="Product" alt="" /></td> 
+			   <td><img name="Contact" src="design/images/City/Contact.jpg" width="189" height="441" border="0" id="Contact" alt="" /></td> 
+			   
+			  </tr> 
+			</table> 		
+		</div>
+		
+	</div>
+
+</body>
+
+</html>

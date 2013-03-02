@@ -1,5 +1,6 @@
 <?php
-include 'includes/header.php';
+$page_name = '';
+include 'includes/header.php'; $page_name = '- '
 ?>
 <script>
 $(document).ready(function(){

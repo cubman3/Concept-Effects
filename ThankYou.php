@@ -1,7 +1,8 @@
 
 
 <?php
-include 'includes/header.php';
+$page_name = '- Thank You';
+include 'includes/header.php'; 
 ?>
 
 

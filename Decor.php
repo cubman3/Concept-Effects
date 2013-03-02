@@ -1,6 +1,7 @@
 
 <?php
-include 'includes/header.php';
+$page_name = '- Decor';
+include 'includes/header.php'; 
 ?>
 
 
@@ -28,7 +29,7 @@ atmosphere of the room and completely transform the space.</p>
 furniture and our custom LED furniture. Pricing available upon request for
 our exclusive line of LED and Lounge Furniture</p>
 
-<p><a class="link" href="/Services.php">Back</a></p>
+<p><a class="link" href="Services.php">Back</a></p>
 </article>
 <article class="col-2 p2">
     <?php

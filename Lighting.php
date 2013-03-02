@@ -1,6 +1,7 @@
 
 <?php
-include 'includes/header.php';
+$page_name = '- Lighting';
+include 'includes/header.php'; 
 ?>
 
 
@@ -58,7 +59,7 @@ combinations than standard up lighting.</p>
 DJ packages to turn your event space into a fully interactive space. Thus
 creating a memorable WOW factor.</p>
 
-<p><a class="link" href="/Services.php">Back</a></p>
+<p><a class="link" href="Services.php">Back</a></p>
 
 </article>
 <article class="col-2 p2">

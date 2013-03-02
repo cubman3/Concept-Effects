@@ -1,6 +1,7 @@
 
 <?php
-include 'includes/header.php';
+$page_name = '- Entertainment';
+include 'includes/header.php'; 
 ?>
 
 
@@ -22,7 +23,7 @@ have the time of your life. We take our clients needs and vision into
 consideration when planning out the flow of your event, leaving our clients
 with their picture perfect event.</p>
 
-    <p><a class="link" href="/Services.php">Back</a></p>
+    <p><a class="link" href="Services.php">Back</a></p>
 </article>
 <article class="col-2 p2">
     

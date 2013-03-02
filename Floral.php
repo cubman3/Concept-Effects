@@ -1,6 +1,7 @@
 
 <?php
-include 'includes/header.php';
+$page_name = '- Floral';
+include 'includes/header.php'; $page_name = '- '
 ?>
 
 
@@ -17,7 +18,7 @@ your picture perfect arrangement from centerpieces to room accents.</p>
                  
 
 
-<p><a class="link" href="/Services.php">Back</a></p>
+<p><a class="link" href="Services.php">Back</a></p>
 
 </article>
 <article class="col-2 p2">

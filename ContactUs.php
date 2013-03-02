@@ -1,6 +1,7 @@
 
 <?php
-include 'includes/header.php';
+$page_name = '- Contact Us';
+include 'includes/header.php'; 
 ?>
 
 

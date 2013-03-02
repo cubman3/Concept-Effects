@@ -1,6 +1,7 @@
 
 <?php
-include 'includes/header.php';
+$page_name = '- Photography/Videography';
+include 'includes/header.php'; 
 ?>
 
 
@@ -14,7 +15,7 @@ experience of your event.</p>
 <p>We offer free in person consultations to allow our clients the opportunity
 to sit with us and go over the fine details of their event and the end result.</p>
                   
-    <p><a class="link" href="/Services.php">Back</a></p>
+    <p><a class="link" href="Services.php">Back</a></p>
 </article>
 <article class="col-2 p2">
     <?php

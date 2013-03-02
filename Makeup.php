@@ -1,6 +1,7 @@
 
 <?php
-include 'includes/header.php';
+$page_name = '- Make up';
+include 'includes/header.php'; 
 ?>
 
 
@@ -18,7 +19,7 @@ bridal updo's, hair, and eyelash extensions.</p>
 
 <p>Contact Concept Effects today for more info and pricing.</p>
 
-<p><a class="link" href="/Services.php">Back</a></p>
+<p><a class="link" href="Services.php">Back</a></p>
 
 </article>
 <article class="col-2 p2">

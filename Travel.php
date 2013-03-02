@@ -1,6 +1,7 @@
 
 <?php
-include 'includes/header.php';
+$page_name = '- Travel';
+include 'includes/header.php'; 
 ?>
 
 
@@ -23,7 +24,7 @@ your event.</p>
 <p>Let Elite take care of your Wedding, Honeymoon, Incentive or Luxury Travel
 needs.</p>
 
-<p><a class="link" href="/Services.php">Back</a></p>
+<p><a class="link" href="Services.php">Back</a></p>
 
 
 

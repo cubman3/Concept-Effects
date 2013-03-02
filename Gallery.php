@@ -1,6 +1,7 @@
 
 <?php
-include 'includes/header.php';
+$page_name = '- Gallery';
+include 'includes/header.php'; 
 ?>
 
 <style>

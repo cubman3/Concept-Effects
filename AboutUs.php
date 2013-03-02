@@ -1,5 +1,7 @@
 <?php
-include 'includes/header.php';
+$page_name = '- About Us';
+include 'includes/header.php'; 
+
 ?>
 
 <article class="col-1">
