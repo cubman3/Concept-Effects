@@ -50,6 +50,7 @@ not only affordable, but professionally handled.</p>
                      <li><a href="PhotographyVideography.php">Photography/Videography</a></li>
                      <li><a href="Photobooths.php">Photobooths</a></li>
                      <li><a href="Decor.php">Decor</a></li>
+                     <li><a href="EventScents.php">Custom Event Scents</a></li>
                   </ul>
                </div>
 </article>
