@@ -37,6 +37,7 @@
         <li><a href="Default.php">Home</a></li>
         <li><a href="AboutUs.php">About Us</a></li>
         <li><a href="Services.php">Services</a></li>
+        <li><a href="EventPackages.php">Event Packages</a></li>
         <li class="current"><a href="Gallery.php">Gallery</a></li>
         <li><a href="ContactUs.php">Contact Us</a></li>
       </ul>
