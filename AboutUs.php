@@ -27,10 +27,9 @@ include 'includes/header.php';
             wants a dream wedding, or even a theater director planning a show or an
             event, we can assist you in any way. No budget is too small and no event is
             too big.</p>
-
-            <object name="player" id="_fp_0.6224590451456606" width="578" height="326"    data="http://www.weddingwire.com/localStatic/flash/flowplayer/flowplayer.commercial.swf?0.5619958881288767"  type="application/x-shockwave-flash">    <param value="true" name="allowfullscreen"/>    <param value="always" name="allowscriptaccess"/>    <param value="opaque" name="wmode"/>    <param value="high" name="quality"/>    <param name="movie" value="http://www.weddingwire.com/localStatic/flash/flowplayer/flowplayer.commercial.swf?0.5619958881288767" />    <param value="config=http%3A%2F%2Fapi.weddingwire.com%2Fapi%2Finternal%2Fvendor%2F43016aaceab28d28%2Fvideo%2F947715a48dc1d46d%2Fconfig" name="flashvars"/></object>
-
-
+<div style="text-align:center;">
+    <iframe src="http://player.vimeo.com/video/67198040" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
+</div>
 
 <link rel='stylesheet' type='text/css' href='http://wwcdn.weddingwire.com/static/css/wireWidgets.css' />
 <div class='ww-bca-2013 ww-reset' style="margin-top:10px; margin-right:auto; margin-left:auto;">
