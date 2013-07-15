@@ -40,7 +40,6 @@ not only affordable, but professionally handled.</p>
                      <li><a href="AudioVideo.php">Audio/Video</a></li>
                      <li><a href="Transport.php">Transport</a></li>
                      <li><a href="DJEntertainment.php">DJ/Entertainment</a></li>
-                     <li><a href="Catering.php">Catering</a></li>
                      <li><a href="Lighting.php">Lighting</a></li>
                      <li><a href="Makeup.php">Make-up</a></li>
                   </ul>
@@ -50,7 +49,7 @@ not only affordable, but professionally handled.</p>
                      <li><a href="PhotographyVideography.php">Photography/Videography</a></li>
                      <li><a href="Photobooths.php">Photobooths</a></li>
                      <li><a href="Decor.php">Decor</a></li>
-                     <li><a href="EventScents.php">Custom Event Scents</a></li>
+                     <li><a href="EventScent.php">Custom Event Scents</a></li>
                   </ul>
                </div>
 </article>

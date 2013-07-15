@@ -4,7 +4,7 @@
 <form action="gdform.php" id="form-contact" method="post"> 
 <input type="hidden" name="subject" value="Concept Effects - Form Submission" /> 
 <input type="hidden" name="redirect" value="ThankYou.php" />
-<input type="hidden" name="email" value="admin@concepteffects.com" />
+<!-- <input type="hidden" name="email" value="admin@concepteffects.com" /> -->
    <fieldset id="contacts-form">
 
    <div class="rowElem">
@@ -27,9 +27,17 @@
       <input name="Date" type="text" id="Date" class="text" />
    </div>
 
+   <div class="rowElem" style="margin-top:10px; margin-bottom:10px;">
+      <label>Where did you find us:</label>
+      <input name="Where did you find us" type="text" id="Where" class="text" />
+   </div>
+
+
+
+
    <div>
       <label>Message:</label>
-      <textarea name="tbComment" rows="1" cols="1" id="tbComment"></textarea>
+      <textarea name="Message" rows="1" cols="1" id="tbComment"></textarea>
    </div>
 
    <div class="button">

@@ -1,58 +1,39 @@
 <?php
 $page_name = '';
-include 'includes/header.php'; $page_name = '- '
+include 'includes/header.php'; $page_name = '- ';
+
+
+
+require_once('twitteroauth/twitteroauth.php');
+
+/* Create a TwitterOauth object with consumer/user tokens. */
+$connection = new TwitterOAuth('fRB69trE11K5bPOdkPQ', 'rb4BiazmOz3GsPqI0klmBn63amh0DzmSUZeZolwD4E', '34745207-asUHeHmS4NH60ez0Jt0BCv9ICckcUck07TEyASYu8', 'u7VATHe6F8DxmQE09tLiZHVeYRRGklBHenAMUhvtCbU');
+
+/* If method is set change API call made. Test is called by default. */
+$content = $connection->get('statuses/user_timeline', array('screen_name' => 'concepteffects', 'count' => 10));
+
+
 ?>
 <script>
-$(document).ready(function(){
-    $('body').attr('id', 'page1');
-});
+    $(document).ready(function(){
+        $('body').attr('id', 'page1');
 
-    (function ($) {
-        var url = 'https://api.twitter.com/1/statuses/user_timeline.json?include_entities=true&include_rts=true&screen_name=concepteffects&count=10';
-        var weekday = new Array(7);
-        weekday[0] = "Sunday";
-        weekday[1] = "Monday";
-        weekday[2] = "Tuesday";
-        weekday[3] = "Wednesday";
-        weekday[4] = "Thursday";
-        weekday[5] = "Friday";
-        weekday[6] = "Saturday";
+         $('#tweets li').each(function(){
+            $(this).find('span').html(processTweetLinks($(this).find('span').html()))
+            console.log($(this).find('span').html());
+        })
+    });
 
-        $.ajax({
-            type: 'GET',
-            url: url,
-            async: false,
-            contentType: "application/json",
-            dataType: 'jsonp',
-            success: function (d) {
 
-                console.dir(d);
-                for (var i = 0; i < d.length; i++) {
-                    console.dir(d[i].text);
-                    var date = new Date(d[i].created_at);
-                    console.log(date);
-                    var displayDate = (date.getMonth() + 1) + '/' + date.getDate() + '/' + date.getFullYear();
-                    $('#tweets').append('<li>' + displayDate + ' <br />' + processTweetLinks(d[i].text) + '</li>');
-                };
-
-            },
-            error: function (e) {
-                console.log(e.message);
-            }
-        });
-
-        function processTweetLinks(text) {
-            var exp = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/i;
-            text = text.replace(exp, "<a href='$1' target='_blank'>$1</a>");
-            exp = /(^|\s)#(\w+)/g;
-            text = text.replace(exp, "$1<a href='http://search.twitter.com/search?q=%23$2' target='_blank'>#$2</a>");
-            exp = /(^|\s)@(\w+)/g;
-            text = text.replace(exp, "$1<a href='http://www.twitter.com/$2' target='_blank'>@$2</a>");
-            return text;
-        }
-
-    })(jQuery);
-
+    function processTweetLinks(text) {
+        var exp = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/i;
+        text = text.replace(exp, "<a href='$1' target='_blank'>$1</a>");
+        exp = /(^|\s)#(\w+)/g;
+        text = text.replace(exp, "$1<a href='http://search.twitter.com/search?q=%23$2' target='_blank'>#$2</a>");
+        exp = /(^|\s)@(\w+)/g;
+        text = text.replace(exp, "$1<a href='http://www.twitter.com/$2' target='_blank'>@$2</a>");
+        return text;
+    }
 </script>
 
 
@@ -60,7 +41,13 @@ $(document).ready(function(){
 <article class="col-1">
     <h2>News</h2>
     <ul class="list1" id="tweets">
-    
+        <?php 
+
+          foreach ( $content as $tweet ) {
+            $formatedDate = date("m.d.y", strtotime($tweet->created_at));
+            echo "<li>$formatedDate<br /><span>$tweet->text<span></li>";
+          }
+        ?> 
     </ul>
 </article>
 
