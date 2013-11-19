@@ -40,6 +40,7 @@
         <li><a href="EventPackages.php">Event Packages</a></li>
         <li class="current"><a href="Gallery.php">Gallery</a></li>
         <li><a href="ContactUs.php">Contact Us</a></li>
+        <li><a href="http://djfinder.com/clientlogon.asp?djidnumber=10780">Client Logon</a></li>
       </ul>
     </nav>
     <ul id="login" style="display:none;">

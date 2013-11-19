@@ -44,12 +44,11 @@ not only affordable, but professionally handled.</p>
                      <li><a href="Makeup.php">Make-up</a></li>
                   </ul>
                   <ul class="list1 col-2">
-                     <li><a href="Floral.php">Floral</a></li>
                      <li><a href="Travel.php">Travel</a></li>
                      <li><a href="PhotographyVideography.php">Photography/Videography</a></li>
                      <li><a href="Photobooths.php">Photobooths</a></li>
                      <li><a href="Decor.php">Decor</a></li>
-                     <li><a href="EventScent.php">Custom Event Scents</a></li>
+                     <li><a href="EventScents.php">Custom Event Scents</a></li>
                   </ul>
                </div>
 </article>
