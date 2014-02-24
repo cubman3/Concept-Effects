@@ -51,6 +51,9 @@
       <ul>
        <li><img id="mainImg" src="images/0.jpg"></li>
      </ul>
+     <div style="text-align:center; display:none;" id="MainVid">
+      <iframe src="http://player.vimeo.com/video/67198040" width="890" height="363" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
+    </div>
    </div>
  </header>
  <!-- content -->

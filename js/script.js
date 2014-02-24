@@ -48,6 +48,7 @@
     $(document).ready(function(){
       var root = 'images/';
       var filename = '';
+      var showVid = false;
       var url = document.location.pathname.toLowerCase();
 
       var imgArray = ['b/0.jpg', 'b/1.jpg', 'b/2.jpg', 'b/3.jpg', 'b/4.jpg', 'b/5.jpg', 'b/6.jpg', 'b/7.jpg', 'b/8.jpg', 'b/9.jpg', 'b/10.jpg', 'b/11.jpg', 'b/12.jpg', 'b/13.jpg', 'b/14.jpg', 'b/15.jpg', 'b/16.jpg', 'b/17.jpg', 'b/18.jpg', 'b/19.jpg', 'b/20.jpg', 'b/21.jpg', ];
@@ -66,11 +67,18 @@
         filename = 'floral.jpg';
       } else if(url.indexOf('travel') != -1) {
         filename = 'travel3.jpg';
+      } else if(url.indexOf('services') != -1) {
+        showVid = true;
       } else {
         filename = imgArray[random];
       }
-
-      $('img#mainImg').attr('src', root + filename);
+      if(showVid){
+        $('#MainVid').show();
+        $('img#mainImg').hide();
+      } else {
+        $('img#mainImg').attr('src', root + filename);
+      }
+      
     });
 
 })();
