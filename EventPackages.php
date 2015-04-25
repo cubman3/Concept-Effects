@@ -46,10 +46,11 @@ include 'includes/header.php';
             <li>Full Perimeter Up-Lighting & 22 Passenger Limo Bus (4hr Min) - Contact for Price</li>
             <li>Make-up and Full Perimeter up-lighting - Contact for Price</li>
             <li>Hair and Full Perimeter up-lighting - Contact for Price</li>
+            
             <li>Full Perimeter Up-Lighting, DJ, Make-up - Contact for Price</li>
-            <li>Full Perimeter Up-Lighting and Photography - Contact for Price</li>
-            <li>Full Perimeter Up-Lighting, Photography, DJ, Make-up - Contact for Price</li>
-            <li>Full Perimeter Up-Lighting and Videography - Contact for Price
+            <!-- <li>Full Perimeter Up-Lighting and Photography - Contact for Price</li> -->
+            <!-- <li>Full Perimeter Up-Lighting, Photography, DJ, Make-up - Contact for Price</li> -->
+            <!-- <li>Full Perimeter Up-Lighting and Videography - Contact for Price -->
 </li>
       </ul>
 </div>
@@ -58,7 +59,7 @@ include 'includes/header.php';
 <br />
 <br />
 
-<h2 style="margin-bottom:10px;">FITNESS PACKAGES:</h2>
+<!-- <h2 style="margin-bottom:10px;">FITNESS PACKAGES:</h2>
 <div class="wrapper">
       <ul class="list1 col-1" style="width:auto;">
             <li>Skype consultation</li>
@@ -89,7 +90,7 @@ include 'includes/header.php';
 </div>
 
 <p>*Referral discounts for Bride and Groom - for each person referred to the workout program you will receive a $15 gift card</p>
-
+ -->
 <p><em><strong>ALL PACKAGE OPTIONS INCLUDE A $100 DISCOUNT ON FULL PERIMETER UPLIGHTING!!</strong></em></p>
 
 

@@ -631,3 +631,46 @@ form textarea {
 #tweets a {
 	color:#B1B1B1;
 }
+
+.social {
+	float: right;
+	position: relative;
+	top: -73px;
+}
+
+.social a{
+	background-color: #fff;
+	width: 54px;
+  	height: 54px;
+	display: block;
+	background-image: url(../images/socialmedia2.jpg); 
+	opacity: 0.6;
+	transition: opacity 0.2s;
+}
+
+.social a:hover{ 
+	transition: opacity 0.2s;
+	opacity: 1;
+}
+
+.social a.facebook {
+	background-position: 163px -45px;
+}
+
+.social a.youtube {
+	background-position: -397px -45px;
+}
+
+.social a.twitter {
+	background-position: -540px -45px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -51,23 +51,11 @@
       var showVid = false;
       var url = document.location.pathname.toLowerCase();
 
-      var imgArray = ['b/0.jpg', 'b/1.jpg', 'b/2.jpg', 'b/3.jpg', 'b/4.jpg', 'b/5.jpg', 'b/6.jpg', 'b/7.jpg', 'b/8.jpg', 'b/9.jpg', 'b/10.jpg', 'b/11.jpg', 'b/12.jpg', 'b/13.jpg', 'b/14.jpg', 'b/15.jpg', 'b/16.jpg', 'b/17.jpg', 'b/18.jpg', 'b/19.jpg', 'b/20.jpg', 'b/21.jpg', ];
+      var imgArray = ['c/0.jpg', 'c/1.jpg', 'c/2.jpg', 'c/3.jpg', 'c/4.jpg', 'c/5.jpg'];
 
       var random = Math.floor((Math.random()*(imgArray.length-1))+1);
 
-      if(url.indexOf('djentertainment') != -1){
-        filename = 'dj.jpg';
-      } else if(url.indexOf('lighting') != -1) {
-        filename = 'lighting.jpg';
-      } else if(url.indexOf('decor') != -1) {
-        filename = 'decor.jpg';
-      } else if(url.indexOf('transport') != -1) {
-        filename = 'transportation.jpg';
-      } else if(url.indexOf('floral') != -1) {
-        filename = 'floral.jpg';
-      } else if(url.indexOf('travel') != -1) {
-        filename = 'travel3.jpg';
-      } else if(url.indexOf('services') != -1) {
+      if(url.indexOf('services') != -1) {
         showVid = true;
       } else {
         filename = imgArray[random];

@@ -37,18 +37,15 @@ not only affordable, but professionally handled.</p>
                
                <div class="wrapper">
                   <ul class="list1 col-1">
-                     <li><a href="AudioVideo.php">Audio/Video</a></li>
-                     <li><a href="Transport.php">Transport</a></li>
                      <li><a href="DJEntertainment.php">DJ/Entertainment</a></li>
                      <li><a href="Lighting.php">Lighting</a></li>
-                     <li><a href="Makeup.php">Make-up</a></li>
-                  </ul>
-                  <ul class="list1 col-2">
-                     <li><a href="Travel.php">Travel</a></li>
-                     <li><a href="PhotographyVideography.php">Photography/Videography</a></li>
                      <li><a href="Photobooths.php">Photobooths</a></li>
                      <li><a href="Decor.php">Decor</a></li>
-                     <li><a href="EventScents.php">Custom Event Scents</a></li>
+                  </ul>
+                  <ul class="list1 col-2">
+                     <li><a href="Transport.php">Transport</a></li>
+                     <li><a href="AudioVideo.php">Audio/Video</a></li>
+                     <li><a href="Makeup.php">Make-up</a></li>
                   </ul>
                </div>
 </article>
