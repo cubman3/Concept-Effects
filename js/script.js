@@ -51,7 +51,7 @@
       var showVid = false;
       var url = document.location.pathname.toLowerCase();
 
-      var imgArray = ['d/0.jpg', 'd/1.jpg', 'd/2.jpg', 'd/3.jpg', 'd/4.jpg', 'd/5.jpg', 'd/6.jpg', 'd/7.jpg', 'd/8.jpg', 'd/9.jpg', 'd/10.jpg', 'd/11.jpg', 'd/12.jpg', 'd/13.jpg'];
+      var imgArray = ['d/0.jpg', 'd/1.jpg', 'd/2.jpg', 'd/3.jpg', 'd/4.jpg', 'd/5.jpg', 'd/6.jpg', 'd/7.jpg', 'd/8.jpg', 'd/9.jpg', 'd/10.jpg', 'd/11.jpg', 'd/12.jpg', 'd/13.jpg', 'd/15.jpg'];
 
       var random = Math.floor((Math.random()*(imgArray.length-1))+1);
 
