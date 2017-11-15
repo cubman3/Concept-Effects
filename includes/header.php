@@ -1,63 +1,263 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head runat="server">
-  <title>Concept Effects <?php echo $page_name; ?></title>
-  <meta name="description" content="Chicago's Premier Lighting and Event Company">
-  <meta name="keywords" content="lighting, weddings, event, chicago, chicagoland,fashion, planning, bride, promoter, theater, professional, entertainment, designers, chicagos">
-  <meta name="google-site-verification" content="3kKoRMf7bZoGUAX_NGMtfonqC7oKLRKQplcns0ds-d0" />
+<!DOCTYPE HTML>
+<html>
+  <head runat="server">
+    <title>Concept Effects <?php echo $page_name; ?></title>
+    <meta name="description" content="Chicago's Premier Lighting and Event Company">
+    <meta name="keywords" content="lighting, weddings, event, chicago, chicagoland,fashion, planning, bride, promoter, theater, professional, entertainment, designers, chicagos">
+    <meta name="google-site-verification" content="3kKoRMf7bZoGUAX_NGMtfonqC7oKLRKQplcns0ds-d0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  </head>
+  <body class="homepage">
+    <div id="page-wrapper">
 
-  <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
-  <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
-  <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-  <link rel="stylesheet" type="text/css" href="js/lightbox/css/jquery.lightbox-0.5.css" media="screen" />
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+      <!-- Header -->
+        <div id="header-wrapper">
+          <div id="header" class="container">
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-  <script type="text/javascript" src="js/cufon-yui.js"></script>
-  <script type="text/javascript" src="js/cufon-replace.js"></script>
-  <script type="text/javascript" src="js/Bebas_400.font.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
-  <script src="js/facebook-photo-album.js"></script>
-  <script type="text/javascript" src="js/lightbox/js/jquery.lightbox-0.5.js"></script>
+            <!-- Logo -->
+              <h1 id="logo">Concept Effects</h1>
+              <h2>Chicago's Premier Lighting and Event Company</h2>
 
-</head>
-<body id="page4">
-  <div id="fb-root"></div>
-  <div class="tail-top">
-   <div id="main">
-    <!-- header -->
-    <header>
-     <div id="date"></div>
-     <h1><a href="Default.php">Concept Effects</a></h1>
-     <span class="subHead">Chicago's Premier Lighting and Event Company</span>
-     <span class="subSubHead">"Providing creative customized events"</span>
-     <nav>
-      <ul>
+            <!-- Nav -->
+              <nav id="nav">
+                <ul>
+                  <li><a href="index.html"><span>Introduction</span></a></li>
+                  <li><a href="left-sidebar.html"><span>Left Sidebar</span></a></li>
+                  <li><a href="right-sidebar.html"><span>Right Sidebar</span></a></li>
+                  <li><a href="no-sidebar.html"><span>No Sidebar</span></a></li>
+                </ul>
+              </nav>
 
-        <li><a href="Default.php">Home</a></li>
-        <li><a href="AboutUs.php">About Us</a></li>
-        <li><a href="Services.php">Services</a></li>
-        <li><a href="EventPackages.php">Event Packages</a></li>
-        <li class="current"><a href="Gallery.php">Gallery</a></li>
-        <li><a href="ContactUs.php">Contact Us</a></li>
-        <li><a href="http://djfinder.com/clientlogon.asp?djidnumber=10780">Client Logon</a></li>
-      </ul>
-    </nav>
-    <ul id="login" style="display:none;">
-      <li><a href="#">Login</a></li>
-      <li><a href="#">register</a></li>
-    </ul>
-    <div id="slider">
-      <ul>
-       <li><img id="mainImg" src="images/0.jpg"></li>
-     </ul>
-     <div style="text-align:center; display:none;" id="MainVid">
-     <iframe width="890" height="363" src="https://www.youtube.com/embed/0BeFQlMPKfk" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
 
-    </div>
-   </div>
- </header>
- <!-- content -->
- <section id="content" class="wrapper">
-   <div class="line-hor"></div>
-   <div class="wrapper indent line-ver1" id="verLine">
+      <!-- Features -->
+        <div id="features-wrapper">
+          <section id="features" class="container">
+            <header>
+              <h2>Gentlemen, behold! This is <strong>Strongly Typed</strong>!</h2>
+            </header>
+            <div class="row">
+              <div class="4u 12u(mobile)">
+
+                <!-- Feature -->
+                  <section>
+                    <a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+                    <header>
+                      <h3>Okay, so what is this?</h3>
+                    </header>
+                    <p>This is <strong>Strongly Typed</strong>, a free, fully responsive site template
+                    by <a href="http://html5up.net">HTML5 UP</a>. Free for personal and commercial use under the
+                    <a href="http://html5up.net/license">CCA 3.0 license</a>.</p>
+                  </section>
+
+              </div>
+              <div class="4u 12u(mobile)">
+
+                <!-- Feature -->
+                  <section>
+                    <a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+                    <header>
+                      <h3>Nice! What is HTML5 UP?</h3>
+                    </header>
+                    <p><a href="http://html5up.net">HTML5 UP</a> is a side project of <a href="http://twitter.com/ajlkn">AJ’s</a> (= me).
+                    I started it as a way to both test my <strong>skel</strong> framework and sharpen up my coding
+                    and design skills a bit.</p>
+                  </section>
+
+              </div>
+              <div class="4u 12u(mobile)">
+
+                <!-- Feature -->
+                  <section>
+                    <a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+                    <header>
+                      <h3>Skel? What's that?</h3>
+                    </header>
+                    <p><strong>Skel</strong> is a lightweight framework for building responsive
+                    sites and apps. All of my stuff at <a href="http://html5up.net">HTML5 UP</a> (including this
+                    one) are built on this framework.</p>
+                  </section>
+
+              </div>
+            </div>
+            <ul class="actions">
+              <li><a href="#" class="button icon fa-file">Tell Me More</a></li>
+            </ul>
+          </section>
+        </div>
+
+      <!-- Banner -->
+        <div id="banner-wrapper">
+          <div class="inner">
+            <section id="banner" class="container">
+              <p>Use this space for <strong>profound thoughts</strong>.<br />
+              Or an enormous ad. Whatever.</p>
+            </section>
+          </div>
+        </div>
+
+      <!-- Main -->
+        <div id="main-wrapper">
+          <div id="main" class="container">
+            <div class="row">
+
+              <!-- Content -->
+                <div id="content" class="8u 12u(mobile)">
+
+                  <!-- Post -->
+                    <article class="box post">
+                      <header>
+                        <h2><a href="#">I don’t want to say <strong>it’s the aliens</strong> ...<br />
+                        but it’s the aliens.</a></h2>
+                      </header>
+                      <a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+                      <h3>I mean isn't it possible?</h3>
+                      <p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
+                      ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
+                      sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
+                      in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
+                      magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
+                      consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
+                      justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet
+                      mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique.
+                      Curabitur leo nibh, rutrum eu malesuada in, tristique at erat.</p>
+                      <ul class="actions">
+                        <li><a href="#" class="button icon fa-file">Continue Reading</a></li>
+                      </ul>
+                    </article>
+
+                  <!-- Post -->
+                    <article class="box post">
+                      <header>
+                        <h2><a href="#">By the way, many thanks to <strong>regularjane</strong>
+                        for these awesome demo photos</a></h2>
+                      </header>
+                      <a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+                      <h3>You should probably check out her work</h3>
+                      <p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
+                      ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
+                      sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
+                      in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
+                      consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
+                      in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
+                      magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
+                      consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
+                      justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet
+                      mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique.
+                      Curabitur leo nibh, rutrum eu malesuada in, tristique at erat.</p>
+                      <p>Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat
+                      Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit ligula
+                      vel quam viverra sit amet mollis tortor congue. Sed quis mauris sit amet
+                      magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada in,
+                      tristique at erat. Curabitur leo nibh, rutrum eu malesuada  in, tristique
+                      at erat lorem ipsum dolor sit amet lorem ipsum sed consequat magna
+                      tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros consequat
+                      magna tempus</p>
+                      <ul class="actions">
+                        <li><a href="#" class="button icon fa-file">Continue Reading</a></li>
+                      </ul>
+                    </article>
+
+                </div>
+
+              <!-- Sidebar -->
+                <div id="sidebar" class="4u 12u(mobile)">
+
+                  <!-- Excerpts -->
+                    <section>
+                      <ul class="divided">
+                        <li>
+
+                          <!-- Excerpt -->
+                            <article class="box excerpt">
+                              <header>
+                                <span class="date">July 30</span>
+                                <h3><a href="#">Just another post</a></h3>
+                              </header>
+                              <p>Lorem ipsum dolor odio facilisis convallis. Etiam non nunc vel est
+                              suscipit convallis non id orci lorem ipsum sed magna consequat feugiat lorem dolore.</p>
+                            </article>
+
+                        </li>
+                        <li>
+
+                          <!-- Excerpt -->
+                            <article class="box excerpt">
+                              <header>
+                                <span class="date">July 28</span>
+                                <h3><a href="#">And another post</a></h3>
+                              </header>
+                              <p>Lorem ipsum dolor odio facilisis convallis. Etiam non nunc vel est
+                              suscipit convallis non id orci lorem ipsum sed magna consequat feugiat lorem dolore.</p>
+                            </article>
+
+                        </li>
+                        <li>
+
+                          <!-- Excerpt -->
+                            <article class="box excerpt">
+                              <header>
+                                <span class="date">July 24</span>
+                                <h3><a href="#">One more post</a></h3>
+                              </header>
+                              <p>Lorem ipsum dolor odio facilisis convallis. Etiam non nunc vel est
+                              suscipit convallis non id orci lorem ipsum sed magna consequat feugiat lorem dolore.</p>
+                            </article>
+
+                        </li>
+                      </ul>
+                    </section>
+
+                  <!-- Highlights -->
+                    <section>
+                      <ul class="divided">
+                        <li>
+
+                          <!-- Highlight -->
+                            <article class="box highlight">
+                              <header>
+                                <h3><a href="#">Something of note</a></h3>
+                              </header>
+                              <a href="#" class="image left"><img src="images/pic06.jpg" alt="" /></a>
+                              <p>Phasellus  sed laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam
+                              viverra sit amet mollis tortor congue magna lorem ipsum dolor et quisque ut odio facilisis
+                              convallis. Etiam non nunc vel est suscipit convallis non id orci. Ut interdum tempus
+                              facilisis convallis. Etiam non nunc vel est suscipit convallis non id orci.</p>
+                              <ul class="actions">
+                                <li><a href="#" class="button icon fa-file">Learn More</a></li>
+                              </ul>
+                            </article>
+
+                        </li>
+                        <li>
+
+                          <!-- Highlight -->
+                            <article class="box highlight">
+                              <header>
+                                <h3><a href="#">Something of less note</a></h3>
+                              </header>
+                              <a href="#" class="image left"><img src="images/pic07.jpg" alt="" /></a>
+                              <p>Phasellus  sed laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam
+                              viverra sit amet mollis tortor congue magna lorem ipsum dolor et quisque ut odio facilisis
+                              convallis. Etiam non nunc vel est suscipit convallis non id orci. Ut interdum tempus
+                              facilisis convallis. Etiam non nunc vel est suscipit convallis non id orci.</p>
+                              <ul class="actions">
+                                <li><a href="#" class="button icon fa-file">Learn More</a></li>
+                              </ul>
+                            </article>
+
+                        </li>
+                      </ul>
+                    </section>
+
+                </div>
+
+            </div>
+          </div>
+        </div>
