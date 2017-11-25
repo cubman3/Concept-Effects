@@ -1,3 +1,5 @@
+               </div>
+            </div>
          <div id="footer-wrapper">
             <div id="footer" class="container">
                <header>
@@ -6,25 +8,42 @@
                <div class="row">
                   <div class="6u 12u(mobile)">
                      <section>
-                        <form method="post" action="#">
-                           <div class="row 50%">
-                              <div class="6u 12u(mobile)">
-                                 <input name="name" placeholder="Name" type="text" />
+                        <form action="gdform.php" id="form-contact" method="post"> 
+                           <input type="hidden" name="subject" value="Concept Effects - Form Submission" /> 
+                           <input type="hidden" name="redirect" value="ThankYou.php" />
+                           <fieldset id="contacts-form">
+                              <div class="row 50%">
+                                 <div class="6u 12u(mobile)">
+                                    <input name="name" id="Name" placeholder="Name" type="text" />
+                                 </div>
+                                 <div class="6u 12u(mobile)">
+                                    <input name="email" id="Email" placeholder="Email" type="text" />
+                                 </div>
                               </div>
-                              <div class="6u 12u(mobile)">
-                                 <input name="email" placeholder="Email" type="text" />
+                              <div class="row 50%">
+                                  <div class="6u 12u(mobile)">
+                                    <input name="phone" id="Phone" placeholder="Phone" type="text" />
+                                 </div>
+                                 <div class="6u 12u(mobile)">
+                                    <input name="date" id="Date" placeholder="Date of Event" type="text" />
+                                 </div>
                               </div>
-                           </div>
-                           <div class="row 50%">
-                              <div class="12u">
-                                 <textarea name="message" placeholder="Message"></textarea>
+                              <div class="row 50%">
+                                 <div class="12u">
+                                    <input name="where" id="Where" placeholder="Where did you find us" type="text" />
+                                 </div>
                               </div>
-                           </div>
-                           <div class="row 50%">
-                              <div class="12u">
-                                 <a href="#" class="form-button-submit button icon fa-envelope">Send Message</a>
+                              <div class="row 50%">
+                                 <div class="12u">
+                                    <textarea name="message" id="tbComment" placeholder="Message"></textarea>
+                                 </div>
                               </div>
-                           </div>
+                              <div class="row 50%">
+                                 <div class="12u">
+                                    <a id="lbSend" href="javascript:document.getElementById('form-contact').submit();" onClick="document.getElementById('form-contact').submit();" class="form-button-submit button icon fa-envelope">Send Message</a>
+                                 </div>
+                              </div>
+                           </fieldset>
                         </form>
                      </section>
                   </div>
@@ -37,15 +56,16 @@
                            <div class="6u 12u(mobile)">
                               <ul class="icons">
                                  <li class="icon fa-home">
-                                    1234 Somewhere Road<br />
-                                    Nashville, TN 00000<br />
-                                    USA
+                                    126 E Wing St<br />
+                                    Suite 136<br />
+                                    Arlington Heights, IL<br />
+                                    60004
                                  </li>
                                  <li class="icon fa-phone">
-                                    (000) 000-0000
+                                    <a href="tel:847-878-5366">(847) 878-5366</a>
                                  </li>
-                                 <li class="icon fa-envelope">
-                                    <a href="#">info@untitled.tld</a>
+                                 <li class="icon fa-fax">
+                                    <a href="tel:847-427-0022">(847) 427-0022</a>
                                  </li>
                               </ul>
                            </div>
@@ -69,13 +89,12 @@
             </div>
             <div id="copyright" class="container">
                <ul class="links">
-                  <li>&copy; Concept Effects <span id="year"></span></li><li><a href="index-5.html">Privacy Policy</a></li>
+                  <li>&copy; Concept Effects <span id="year"></span></li><li><a href="#">Privacy Policy</a></li>
                </ul>
             </div>
          </div>
       </div>
       <!-- Scripts -->
-      <script src="assets/js/jquery.min.js"></script>
       <script src="assets/js/jquery.dropotron.min.js"></script>
       <script src="assets/js/skel.min.js"></script>
       <script src="assets/js/skel-viewport.min.js"></script>

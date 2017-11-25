@@ -4,12 +4,14 @@ $page_name = '- Decor';
 include 'includes/header.php'; 
 ?>
 
-
-<article class="col-1">
-    <h2>Decor and Furniture</h2>
-              
-                  <h5>Create the look you envision with fabric backdrops.</h5>
-
+<div class="row">
+  <div id="content">
+      <!-- Post -->
+      <article class="box post">
+          <header>
+          	<h2>Decor and Furniture</h2>
+          </header>
+          <h3>Create the look you envision with fabric backdrops.</h3>
                  <p>Backdrops can be
 used to create a focal point behind a head table, ceiling, outdoor patio, or
 transform a blank space. By using drapery tiebacks and fabric swags, you
@@ -28,15 +30,9 @@ atmosphere of the room and completely transform the space.</p>
 <p>Turn your lounge area in to a VIP atmosphere with white leather lounge
 furniture and our custom LED furniture. Pricing available upon request for
 our exclusive line of LED and Lounge Furniture</p>
-
-<p><a class="link" href="Services.php">Back</a></p>
-</article>
-<article class="col-2 p2">
-    <?php
-include 'includes/commentform.php';
-?>
- 
-</article>
+      </article>
+  </div>
+</div>
 
 <?php
 include 'includes/footer.php';

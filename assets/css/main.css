@@ -1823,7 +1823,7 @@
 				font-size: 0.85em;
 				letter-spacing: 2px;
 				padding: 0.25em 1em 0.25em 1em;
-				margin: 0 0 2.5em 0;
+				margin: 0 0 0.5em 0;
 			}
 
 		/* Wrappers */
@@ -2083,7 +2083,7 @@
 		/* Header */
 
 			#header {
-				padding: 9em 0 4em 0;
+				padding: 2em 0 4em 0;
 			}
 
 				#header h1 {
@@ -2204,7 +2204,7 @@
 				display: block;
 				letter-spacing: 2px;
 				padding: 0.25em 1em 0.25em 1em;
-				margin: 0 auto 2.5em auto;
+				margin: 0 auto 0.5em auto;
 				text-align: center;
 			}
 
@@ -2488,3 +2488,83 @@
 			}
 
 	}
+
+
+/* Customizations */
+
+
+#tweets li {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+#weddingwire {
+	margin: 0 auto;
+	width: 130px;
+}
+#weddingwire > a {
+	border: 0;
+	display: block;
+	width: 130px;
+}
+#weddingwire1 {
+	height: 33px;
+}
+#weddingwire a img {
+	width: 130px;
+}
+#weddingwire2 {
+	height: 98px;
+}
+#ww-widget-reviews {
+	margin: 0 auto;
+}
+ul.bulleted {
+	list-style: inside;
+}
+/*@media screen and (min-width: 737px) {
+	#services-nav {
+		position: absolute;
+		top: 9.5em;
+		left: 0;
+		width: 100%;
+	}
+	#services-nav > ul > li {
+		display: inline-block;
+		padding-right: 2em;
+	}
+
+	#services-nav > ul > li:last-child {
+		padding-right: 0;
+	}
+
+	#services-nav > ul > li > a {
+		display: block;
+	}
+
+	#services-nav > ul > li > a {
+		font-size: 0.85em;
+		letter-spacing: 3px;
+	}
+	#services-nav > ul > li > a {
+		border: 0;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 200;
+		color: #777;
+		outline: 0;
+	}
+	#services-nav > ul > li.active > a:before, #services-nav > ul > li:hover > a:before {
+		background: #ED786A;
+		color: #fff;
+	}
+
+	#services-nav > ul > li.active > a, #services-nav > ul > li:hover > a {
+		color: #ED786A;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	#services-nav {
+		display: none;
+	}
+}*/
