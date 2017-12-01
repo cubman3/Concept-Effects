@@ -2497,29 +2497,23 @@
     margin-top: 1em;
     padding-top: 1em;
 }
-#weddingwire {
-	margin: 0 auto;
-	width: 130px;
-}
-#weddingwire > a {
-	border: 0;
-	display: block;
-	width: 130px;
-}
 #weddingwire1 {
-	height: 33px;
-}
-#weddingwire a img {
-	width: 130px;
+	background-image: url("//www.weddingwire.com/assets/badges/BCA-2015/BCA_2015-badge-top.png");
 }
 #weddingwire2 {
-	height: 98px;
+	background-image: url("//www.weddingwire.com/assets/badges/BCA-2015/BCA_2015-badge-bottom.png");
 }
 #ww-widget-reviews {
 	margin: 0 auto;
 }
 ul.bulleted {
 	list-style: inside;
+}
+#ww-widget-wwaward-2015 {
+	 width: 130px;
+}
+#ww-widget-wwrated-2013 > a {
+	border: 0;
 }
 /*@media screen and (min-width: 737px) {
 	#services-nav {

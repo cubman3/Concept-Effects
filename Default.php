@@ -1,12 +1,12 @@
 <?php
 $page_name = '';
 include 'includes/header.php'; $page_name = '- ';
-
+include 'config.php';
 
 require_once('twitteroauth/twitteroauth.php');
 
 /* Create a TwitterOauth object with consumer/user tokens. */
-$connection = new TwitterOAuth('fRB69trE11K5bPOdkPQ', 'rb4BiazmOz3GsPqI0klmBn63amh0DzmSUZeZolwD4E', '34745207-asUHeHmS4NH60ez0Jt0BCv9ICckcUck07TEyASYu8', 'u7VATHe6F8DxmQE09tLiZHVeYRRGklBHenAMUhvtCbU');
+$connection = new TwitterOAuth(TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET);
 
 /* If method is set change API call made. Test is called by default. */
 $content = $connection->get('statuses/user_timeline', array('screen_name' => 'concepteffects', 'count' => 10));
@@ -59,6 +59,18 @@ $content = $connection->get('statuses/user_timeline', array('screen_name' => 'co
                 event, we can assist you in any way. No budget is too small and no event is
                 too big.</p>
 
+   <!--          <div id='ww-widget-wwaward-2015'>
+                <a id="weddingwire1" href="http://www.weddingwire.com" title="WeddingWire" target="_blank"/>
+                <a id="weddingwire2" href="http://www.weddingwire.com/reviews/concept-effects-arlington-heights/43016aaceab28d28.html" title="Concept Effects Reviews, Best Lighting &amp; Decor in Chicago - 2015 Couples&#39; Choice Award Winner"/>
+            </div> -->
+
+            <script src='//www.weddingwire.com/assets/vendor/widgets/ww-rated-2013.js' type='application/javascript'></script>
+            <div id='ww-widget-wwrated-2013'>
+                <a class="ww-top" href="https://www.weddingwire.com" target="_blank" title="Weddings, Wedding, Wedding Venues"></a>
+                <a class="ww-bottom" href="https://www.weddingwire.com/reviews/concept-effects-arlington-heights/43016aaceab28d28.html" target="_blank" title="Concept Effects Reviews, Chicago, Rockford, South Bend Lighting &amp; Decor"></a>
+            </div>
+            <script> WeddingWire.ensureInit(function() {WeddingWire.createWWRated2013({"vendorId":"43016aaceab28d28" }); });</script>
+
             <script type="text/javascript" src="http://wwcdn.weddingwire.com/static/js/widgets/myReviews.js"></script>
             <div id="ww-widget-reviews" class="ww-reset ww-reviews-widget">
                 <div class="ww-reviews-placeholder">Read all of our <a target="_new" href="http://www.weddingwire.com/biz/concept-effects-arlington-heights/43016aaceab28d28.html">Wedding Hair &amp; Makeup, Wedding Catering, Wedding Disc Jockey, Wedding Rentals, Wedding Flowers, Wedding Lighting &amp; Decor, Wedding Photography, Wedding Limousines, Travel, Wedding Videography, Wedding Cake Reviews</a> at <a target="_new" href="http://www.weddingwire.com"><img src="http://wwcdn.weddingwire.com/static/images/logo/WWlogo-83x19.gif" alt="Weddings, Wedding Cakes,  Wedding Planning, Wedding Checklists, Free Wedding Websites, Wedding Dresses, Wedding Ideas & more"/></a>
@@ -79,17 +91,11 @@ $content = $connection->get('statuses/user_timeline', array('screen_name' => 'co
                 <a id="weddingwire2" href="http://www.weddingwire.com/reviews/concept-effects-arlington-heights/43016aaceab28d28.html" title="Concept Effects Reviews, Best Lighting &amp; Decor in Chicago - 2015 Couples&#39; Choice Award Winner">
                     <img alt="Concept Effects Reviews, Best Lighting &amp; Decor in Chicago - 2015 Couples&#39; Choice Award Winner" src="//www.weddingwire.com/assets/badges/BCA-2015/BCA_2015-badge-bottom.png" />
                 </a>
-                <img alt="" height="1" src="//www.weddingwire.com/apis/v3/tracker?partner_key=163r5mm3&amp;target_id=43016aaceab28d28&amp;type=bca_2015" width="1" />
             </div>
         </div>
-
-                                    <script src='//www.weddingwire.com/assets/vendor/widgets/ww-rated-2013.js' type='application/javascript'></script>
-                            <div id='ww-widget-wwrated-2013'>
-                                <a class="ww-top" href="http://www.weddingwire.com" target="_blank" title="Weddings, Wedding, Wedding Venues"></a>
-                                <a class="ww-bottom" href="http://www.weddingwire.com/reviews/concept-effects-arlington-heights/43016aaceab28d28.html" target="_blank" title="Concept Effects Reviews, Chicago, Rockford, South Bend Lighting &amp; Decor"></a>
-                            </div>
-                            <script> WeddingWire.ensureInit(function() {WeddingWire.createWWRated2013({"vendorId":"43016aaceab28d28" }); });</script>
         -->
+
+        
 
     </div>
     <div id="sidebar" class="4u 12u(mobile)">
