@@ -1,0 +1,342 @@
+body {
+	background-color: #e5e5e5;
+	font-family: 'Gotham Light Regular', sans-serif;
+	font-size: 18px;
+}
+
+header {
+	background-color: #e5e5e5;
+	border-top: solid #fff 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/* Header Left */
+
+header h1 {
+    font-family: 'Open Sans Condensed Bold', sans-serif;
+    font-size: 50px;
+    color: #989898;
+    text-transform: uppercase;
+    padding-left: 145px;
+    background-image: url(../images/logot.png);
+    background-repeat: no-repeat;
+    background-size: 110px;
+    background-position: 0 8px;
+}
+
+header h1 span {
+	color:#353535;
+}
+
+header h2 {
+	font-family: 'Gotham Light Regular', sans-serif;
+    font-size: 21px;
+    color: #989898;
+    margin-top: -5px;
+}
+
+header .decoration {
+    position: absolute;
+    top: 10px;
+    left: 145px;
+    height: 45px;
+    border-left: solid 1px #353535;
+}
+
+
+
+
+
+
+
+/* Header right */
+
+header .header-right {
+	padding: 0;
+    margin: 0;
+	margin-top: 23px;
+}
+
+header .header-right li {
+	display: block;
+	float: left;
+}
+
+header .header-right .client-login {
+	width: 190px;
+	text-align: right;
+	border-left: solid 1px #353535;
+    padding: 5px 0;
+}
+
+
+
+
+
+
+
+/* Social Icons */
+
+.social-icons {
+	width: 350px;
+    margin-top: 5px;
+    font-family: 'Gotham Light Regular', sans-serif;
+	font-size: 21px;
+	color:#353535;
+	padding-left: 35px;
+}
+
+.social-icons ul {
+	list-style: none;
+	padding: 0;
+	margin:0;
+    margin-right: 40px;
+    width: 100%;
+}
+
+.social-icons li {
+	float: left;
+	line-height: 40px;
+}
+
+.social-icons li a { 
+	display: block;
+	height: 40px;
+    width: 40px;
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    transition: all 250ms ease;
+}
+
+.social-icons li a:hover { 
+	-webkit-filter: brightness(80%);
+
+}
+
+.social-icons li a.facebook { 
+	background-image: url("../images/facebook.svg");
+	margin-left: 10px;
+}
+
+.social-icons li a.twitter { 
+	background-image: url("../images/twitter.svg");
+	margin-left: 10px;
+}
+
+.social-icons li a.youtube { 
+	background-image: url("../images/youtube.svg");
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+/* Site Navigation */
+nav {
+	background-color: #fff;
+}
+nav.site-nav {
+	font-family: 'Gotham Light Regular', sans-serif;
+	font-size: 21px;
+	text-transform: uppercase;
+	padding: 10px 0;
+}
+
+nav.site-nav a {
+	color:#727373;
+	text-transform: uppercase;
+}
+
+nav.site-nav a:hover {
+	color:#135078;
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    transition: all 250ms ease;
+}
+
+nav.site-nav a.active {
+	font-family: 'Gotham Medium Bold', sans-serif;
+	color:#1b75bc;
+}
+
+
+
+
+/* Jumbo */
+
+.jumbo {
+	background-image: url("../images/Wedding 16.jpg");
+	background-repeat: no-repeat;        
+    position: relative;        
+    width: 100%;            
+    height: 610px;
+	max-width: 1140px;
+	margin-right: auto;
+    margin-left: auto;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	background-color: #fff;
+}
+
+.jumbo .availability-form {
+	font-family: 'Gotham Book', sans-serif;
+    width: 25%;
+    height: auto;
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    bottom: 35px;
+    background:rgba(0,0,0,0.5);
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 35px;
+}
+
+.jumbo .availability-form .dropdown{
+	margin-bottom: 20px;
+}
+
+.jumbo .availability-form .btn-primary{
+	background-color: transparent;
+	border: solid 1px #fff;
+	width: 150px;
+}
+
+.jumbo .availability-form .submit-btn {
+	background-color: #1b75bc;
+	border: none;
+	text-transform: uppercase;
+}
+
+
+/* Buttons */
+
+.btn {
+	font-family: 'Gotham Medium Regular', sans-serif;
+	background-color: #1b75bc;
+	font-size: 16px;
+	text-transform: uppercase;
+    padding: 7px 20px;
+}
+
+.btn:hover {
+	background-color: #135078;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    transition: all 250ms ease;
+}
+
+
+
+
+/* Content sections */
+
+.alt-section {
+	background-color: #e5e5e5;
+}
+
+.link-list{
+	list-style-type:none;
+}
+
+section {
+	padding: 30px 0;
+	background-color: #fff;
+}
+
+section h1 {
+	font-family: 'Gotham Book', sans-serif;
+	color:#727373;
+	text-transform: uppercase;
+	font-size: 24px;
+    margin-bottom: 15px;
+}
+
+section p {
+	font-family: 'Gotham Light Regular', sans-serif;
+	font-size: 18px;
+}
+
+
+section a {
+	font-family: 'Gotham Light Regular', sans-serif;
+	font-size: 18px;
+	color:#1b75bc;
+}
+
+section a:hover {
+	color:#135078;
+	text-decoration: none;
+}
+
+section.no-margin {
+	margin: 0; 
+	padding:0;
+}
+
+
+
+/* Footer */
+
+footer {
+	background-color: #e5e5e5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer p {
+	font-family: 'Gotham Light Regular', sans-serif;
+	color:#231f20;
+    text-transform: uppercase;
+    top: 15px;
+    position: relative;
+}
+
+footer .social-icons {
+	padding-left: 70px;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: "Open Sans Condensed Bold";
+    src: url("../fonts/OpenSansCondensed-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Gotham Light Regular";
+    src: url("../fonts/Gotham Light Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Gotham Medium Regular";
+    src: url("../fonts/Gotham Medium Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Gotham Medium Bold";
+    src: url("../fonts/Gotham Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Gotham Book";
+    src: url("../fonts/Gotham Book.otf") format("opentype");
+}
