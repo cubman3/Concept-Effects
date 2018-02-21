@@ -7,7 +7,11 @@
 
     <meta name="keywords" content="lighting, weddings, event, chicago, chicagoland,fashion, planning, bride, promoter, theater, professional, entertainment, designers, chicagos">
 
-    <link rel="canonical" href="http://www.seomoz.org/blog" />
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="canonical" href="http://concepteffects.com/" />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
@@ -21,12 +25,13 @@
   <header>
     <div class="container">
       <div class="row">
-        <div class="col-sm">
-          <h1>Concept<span>Effects</span></h1>
-          <h2>Chicago’s Premier Lighting & Event Company</h2>
+        <div class="col-md">
+          <h1><a href="/default.php">Concept<span>Effects</span></a></h1>
+          <h2>Chicago's Premier Lighting & Event Company</h2>
           <span class="decoration"></span>
+          <a href="#" class="ss-rows hamburger" data-action="toggle-mobile-nav"></a>
         </div>
-        <div class="col-sm">
+        <div class="col-md">
               <ul class="header-right">
                 <li class="social-icons">
                   <?php include 'includes/social-icons.php'; ?>
@@ -42,34 +47,35 @@
 
   <nav class="site-nav">
     <div class="container">
-      <ul class="nav justify-content-center">
+      <ul class="nav flex-column" data-context="site-nav">
+        <li class="nav-item mobile-client-login"><a href="https://concepteffectslogin.com/clientlogon.asp" class="btn btn-primary">Client Login</a></li>
         <li class="nav-item">
-          <a class="nav-link <? if ($_SERVER[REQUEST_URI] == '/default.php') { echo 'active'; } ?>" href="/default.php">
+          <a class="nav-link <? if ($_SERVER[REQUEST_URI] == '/default.php') { echo 'active'; } ?>" href="default.php">
             Home
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <? if ($_SERVER[REQUEST_URI] == '/aboutus.php') { echo 'active'; } ?>" href="/aboutus.php">
+          <a class="nav-link <? if ($_SERVER[REQUEST_URI] == '/aboutus.php') { echo 'active'; } ?>" href="aboutus.php">
             About Us
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <? if ($_SERVER[REQUEST_URI] == '/services.php') { echo 'active'; } ?>" href="/services.php">
+          <a class="nav-link <? if ($_SERVER[REQUEST_URI] == '/services.php') { echo 'active'; } ?>" href="services.php">
             Services
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <? if ($_SERVER[REQUEST_URI] == '/eventpackages.php') { echo 'active'; } ?>" href="/eventpackages.php">
+          <a class="nav-link <? if ($_SERVER[REQUEST_URI] == '/eventpackages.php') { echo 'active'; } ?>" href="eventpackages.php">
             Event Packages
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <? if ($_SERVER[REQUEST_URI] == '/gallery.php') { echo 'active'; } ?>" href="/gallery.php">
+          <a class="nav-link <? if ($_SERVER[REQUEST_URI] == '/gallery.php') { echo 'active'; } ?>" href="gallery.php">
           Gallery
         </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <? if ($_SERVER[REQUEST_URI] == '/contactus.php') { echo 'active'; } ?>" href="/contactus.php">Contact Us</a>
+          <a class="nav-link <? if ($_SERVER[REQUEST_URI] == '/contactus.php') { echo 'active'; } ?>" href="contactus.php">Contact Us</a>
         </li>
       </ul>
     </div>

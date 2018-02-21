@@ -78,7 +78,7 @@ include 'includes/header.php'; $page_name = '- ';
 <section>
 	<div class="container">
 		<div class="row">
-	        <div class="col-sm-8">
+	        <div class="col-md-8">
 	    		<h1>Recent News</h1>
 	    		<div class="row">
 	       			<div class="col-sm">
@@ -100,7 +100,7 @@ include 'includes/header.php'; $page_name = '- ';
 	       		</div>
 
 	        </div>
-	        <div class="col-sm-4">
+	        <div class="col-md-4">
 	    		<?php include 'includes/weddingwire.php'; ?>
 	        </div>
 	    </div>
