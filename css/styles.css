@@ -4,17 +4,6 @@ body {
 	font-size: 18px;
 }
 
-/* Custom, iPhone Retina */ 
-@media only screen and (min-width : 320px) {
-	body {
-		background-color: #fff;
-	}
-}
-
-
-
-
-
 
 
 
@@ -446,6 +435,45 @@ nav.site-nav a.btn {
 	background-color: #fff;
 }
 
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+	.jumbo {
+		height: 300px;
+	}
+}
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	.jumbo {
+		height: 400px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.jumbo {
+		height: 610px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.jumbo {
+		height: 610px;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.jumbo {
+		height: 610px;
+	}
+}
+
+
+
 .jumbo .availability-form {
 	font-family: 'Gotham Book', sans-serif;
     width: 25%;
@@ -537,6 +565,10 @@ section p {
 	font-size: 18px;
 }
 
+section strong {
+	font-family: 'Gotham bold', sans-serif;
+}
+
 
 section a {
 	font-family: 'Gotham Light', sans-serif;
@@ -594,8 +626,8 @@ footer .social-icons {
 }
 
 
-
-
+/*
+https://www.wfonts.com/font/gotham*/
 
 
 @font-face {

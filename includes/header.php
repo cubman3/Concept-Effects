@@ -26,7 +26,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md">
-          <h1><a href="/default.php">Concept<span>Effects</span></a></h1>
+          <h1><a href="default.php">Concept<span>Effects</span></a></h1>
           <h2>Chicago's Premier Lighting & Event Company</h2>
           <span class="decoration"></span>
           <a href="#" class="ss-rows hamburger" data-action="toggle-mobile-nav"></a>
@@ -47,7 +47,7 @@
 
   <nav class="site-nav">
     <div class="container">
-      <ul class="nav flex-column" data-context="site-nav">
+      <ul class="nav justify-content-center" data-context="site-nav">
         <li class="nav-item mobile-client-login"><a href="https://concepteffectslogin.com/clientlogon.asp" class="btn btn-primary">Client Login</a></li>
         <li class="nav-item">
           <a class="nav-link <? if ($_SERVER[REQUEST_URI] == '/default.php') { echo 'active'; } ?>" href="default.php">
@@ -60,7 +60,17 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <? if ($_SERVER[REQUEST_URI] == '/services.php') { echo 'active'; } ?>" href="services.php">
+          <a class="nav-link <? 
+            if ($_SERVER[REQUEST_URI] == '/services.php' || 
+              $_SERVER[REQUEST_URI] == '/djentertainment.php' ||
+              $_SERVER[REQUEST_URI] == '/lighting.php' ||
+              $_SERVER[REQUEST_URI] == '/photobooths.php' ||
+              $_SERVER[REQUEST_URI] == '/decor.php' ||
+              $_SERVER[REQUEST_URI] == '/transport.php' ||
+              $_SERVER[REQUEST_URI] == '/audiovideo.php' ||
+              $_SERVER[REQUEST_URI] == '/makeup.php') { 
+              echo 'active'; 
+            } ?>" href="services.php">
             Services
           </a>
         </li>

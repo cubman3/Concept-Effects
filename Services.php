@@ -44,13 +44,13 @@ include 'includes/header.php'; $page_name = '- ';
 
 	        <div class="col-sm-4 text-center">
 	        	<ul class="link-list">
-        			<li><a href="#">DJ/Entertainment</a></li>
-		    		<li><a href="#">Lighting</a></li>
-		    		<li><a href="#">Photobooths</a></li>
-		    		<li><a href="#">Decor</a></li>
-		    		<li><a href="#">Transport</a></li>
-		    		<li><a href="#">Audio/Video</a></li>
-		    		<li><a href="#">Make-up</a></li>
+        			<li><a href="djentertainment.php">DJ/Entertainment</a></li>
+		    		<li><a href="lighting.php">Lighting</a></li>
+		    		<li><a href="photobooths.php">Photobooths</a></li>
+		    		<li><a href="decor.php">Decor</a></li>
+		    		<li><a href="transport.php">Transport</a></li>
+		    		<li><a href="audiovideo.php">Audio/Video</a></li>
+		    		<li><a href="makeup.php">Make-up</a></li>
 	        	</ul>
 	        </div>
 	    </div>
